@@ -139,6 +139,7 @@ ls /var/www/html/
 ### Nginx Logs Examination
 
 #### Attempted to identify the attack vector by examining the nginx logs:
+```
 4.180.247.194 - - [30/Nov/2023:12:37:30 +0000] "PROPFIND / HTTP/1.1" 405 150 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)"
 4.180.247.194 - - [30/Nov/2023:12:37:30 +0000] "GET /HNAP1 HTTP/1.1" 301 162 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)"
 4.180.247.194 - - [30/Nov/2023:12:37:30 +0000] "GET /evox/about HTTP/1.1" 404 146 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)"
@@ -173,5 +174,5 @@ ls /var/www/html/
 45.135.232.36 - - [30/Nov/2023:15:08:52 +0000] "GET / HTTP/1.1" 200 7912 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7"
 57.129.23.166 - - [30/Nov/2023:15:14:19 +0000] "GET /.env HTTP/1.1" 301 162 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
 57.129.23.166 - - [30/Nov/2023:15:14:19 +0000] "POST / HTTP/1.1" 301 162 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
-
+```
 
