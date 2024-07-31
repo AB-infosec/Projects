@@ -156,7 +156,3 @@ Identify the URL that the phishing attachment opened.
 #### Solution
 The URL used by the phishing attachment was extracted from the analysis and memory dump findings.
 
-## Techniques
-
-### Reverse Engineering
-Reverse Engineering involves analyzing code to understand its functionality and uncover hidden features. It is used to bypass software protections or analyze malware behavior.

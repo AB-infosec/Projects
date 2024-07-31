@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This writeup documents my participation in the SecOps 2024 CTF event, held on [Event Date]. The event focused on challenging participants with various cybersecurity tasks across different categories, including Web, Forensics, and Cryptography. I successfully solved [Number of Challenges Solved] challenges, demonstrating a range of techniques and tools.
+This writeup documents my participation in the SecOps 2024 CTF event. The event focused on challenging participants with various cybersecurity tasks across different categories, including Web, Forensics, and Cryptography. I successfully solved 481 points worth of challenges, demonstrating a range of techniques and tools.
 
 ## Challenges and Solutions
 
@@ -103,7 +103,7 @@ Determine the programming language used for the ransomware.
    - Based on the file structure and code analysis, determined the programming language used for the ransomware.
 
 ##### Solution
-The ransomware was written in [Programming Language].
+The ransomware was written in [placeholder].
 
 ### Additional Findings
 
