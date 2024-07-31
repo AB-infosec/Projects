@@ -47,3 +47,82 @@ change the chart to linear if needed.
 
 notes from investigating a test case:
 
+The following are the room objectives:
+
+Certainly. Here's the formatted markdown Q&A section based on the full file you provided:
+
+# Windows Forensics Investigation Q&A
+
+## Image Information
+
+**Q: What is the MD5 hash of the E01 image?**
+
+A: [Check the Data Summary for this information]
+
+## System Information
+
+**Q: What is the computer account name?**
+
+A: [Look under Results: Operating System information]
+
+## User Accounts and Login Information
+
+**Q: List all the user accounts. (alphabetical order)**
+
+A: [same tree, under Operating System User Account]
+
+**Q: Who was the last user to log into the computer?**
+
+A: [under the same location, the Date Accessed table will show this data, sort it.]
+
+## Network Information
+
+**Q: What was the IP address of the computer?**
+
+A: [this was challanging, I tried to look at OS info, keyword search for ipconfig, looking at hosts file, no luck. Turns out there is a networking tool installed, with an .ini config file which includes the IP and mac address]
+
+**Q: What was the MAC address of the computer? (XX-XX-XX-XX-XX-XX)**
+
+A: [same file as above]
+
+**Q: What is the name of the network card on this computer?**
+
+A: [after a lot of searching, I've found the relevant registry entry, which I exported: SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+
+## Software and Tools
+
+**Q: What is the name of the network monitoring tool?**
+
+A: [we actually found this out earlier in the installed programs tab
+
+## User Activities
+
+**Q: A user bookmarked a Google Maps location. What are the coordinates of the location?**
+
+A: [Results -> Extracted Content -> Web Bookmarks conviniently contains this information]
+
+**Q: A user has his full name printed on his desktop wallpaper. What is the user's full name?**
+
+A: [This was surprisingly difficult, I've located the wallpaper file for multiple users, and it was a small text in on of the files. The name was later referenced in searches, etc.]
+
+**Q: A user had a file on her desktop. It had a flag but she changed the flag using PowerShell. What was the first flag?**
+
+A: [This was tricky, but running a keyword search for flag{ revealed a ConsoleHost_history.txt file, which had the original flag]
+
+## Security and Exploits
+
+**Q: The same user found an exploit to escalate privileges on the computer. What was the message to the device owner?**
+
+A: [simply looked at the same user, the desktop had a .ps1 file with this flag and a priv. esc. script]
+
+**Q: 2 hack tools focused on passwords were found in the system. What are the names of these tools? (alphabetical order)**
+
+A: [the first one was easy, mimikatz was in the download files, and many other locations. However, I had to search through MS Defender files to find the other malicious file]
+
+**Q: There is a YARA file on the computer. Inspect the file. What is the name of the author?**
+
+A: [Tools: File search by attribute allows searching for .yar and .yara files]
+
+**Q: One of the users wanted to exploit a domain controller with an MS-NRPC based exploit. What is the filename of the archive that you found? (include the spaces in your answer)**
+
+A: [the question is referencing CVE-2020–1472 (also known as “Zerologon”) so I just searched for terms related to zerologon, such as python files, zip files etc. keyword search revealed the answer]
