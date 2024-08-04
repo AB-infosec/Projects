@@ -4,7 +4,7 @@ Welcome to my cybersecurity portfolio!
 Here you'll find detailed write-ups and notes on various TryHackMe rooms and Capture The Flag (CTF) challenges I've tackled.
 Each section provides insights, tools, and techniques used during these exercises.
 
-## TryHackMe Rooms
+## TryHackMe
 
 Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyber Defense THM path.
 
@@ -20,14 +20,12 @@ Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyb
 - [Volatility](tryhackme/ir_and_forensics/volatility.md)
 - [Windows](tryhackme/ir_and_forensics/win.md)
 - [YARA](tryhackme/ir_and_forensics/yara.md)
-- [Malware analysis] (tryhackme/ir_and_forensics/rev-malware.md)
+- [Malware analysis](tryhackme/ir_and_forensics/rev-malware.md)
 
 ## Capture The Flag (CTF) Challenges
 
 Dive into my write-ups for various CTF challenges, covering topics from network forensics to web exploitation.
 
-
-### THM CTF rooms
 - [THM3M](tryhackme/rooms/THM3M.md)
 
 
