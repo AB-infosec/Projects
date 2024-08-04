@@ -17,14 +17,19 @@ Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyb
 - [Nmap](tryhackme/ir_and_forensics/nmap.md)
 - [Sysinternal](tryhackme/ir_and_forensics/sysinternal.md)
 - [Sysmon](tryhackme/ir_and_forensics/sysmon.md)
-- [THM3M](tryhackme/ir_and_forensics/THM3M.md)
 - [Volatility](tryhackme/ir_and_forensics/volatility.md)
 - [Windows](tryhackme/ir_and_forensics/win.md)
 - [YARA](tryhackme/ir_and_forensics/yara.md)
+- [Malware analysis] (tryhackme/ir_and_forensics/rev-malware.md)
 
 ## Capture The Flag (CTF) Challenges
 
 Dive into my write-ups for various CTF challenges, covering topics from network forensics to web exploitation.
+
+
+### THM CTF rooms
+- [THM3M](tryhackme/rooms/THM3M.md)
+
 
 ### HCSC24 [might work on this later, had no time to take notes during the event]
 - [Mikrotik Network](hcsc/network/mikrotik.md)
@@ -47,5 +52,5 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ---
 
-*Last updated: 31/07/2024*
+Last updated: 04/08/2024
 

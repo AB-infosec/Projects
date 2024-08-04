@@ -61,7 +61,7 @@ Volatility 3 includes numerous modules for Windows, Linux, and Mac analysis. Som
 - `windows.pslist`, `windows.psscan`, `windows.pstree`: Process analysis
 - `windows.netscan`, `windows.netstat`: Network connection analysis
 - `windows.malfind`: Potential malware detection
-- `windows.dlllist`, `windows.modules`: Loaded module analysis
+- `windows.dlllist`, `windows.modules`: Loaded module analysis, can be used with specific PID
 - `windows.handles`: Open handle analysis
 - `windows.registry.*`: Registry analysis
 - `yarascan`: YARA rule scanning
