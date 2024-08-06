@@ -21,6 +21,7 @@ Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyb
 - [Windows](tryhackme/ir_and_forensics/win.md)
 - [YARA](tryhackme/ir_and_forensics/yara.md)
 - [Malware analysis](tryhackme/ir_and_forensics/rev-malware.md)
+- [Splunk](tryhackme/ir_and_forensics/splunk.md)
 
 ## Capture The Flag (CTF) Challenges
 
@@ -50,5 +51,5 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ---
 
-Last updated: 04/08/2024
+Last updated: 05/08/2024
 
