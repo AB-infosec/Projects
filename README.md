@@ -4,6 +4,10 @@ Welcome to my cybersecurity portfolio!
 Here you'll find detailed write-ups and notes on various TryHackMe rooms and Capture The Flag (CTF) challenges I've tackled.
 Each section provides insights, tools, and techniques used during these exercises.
 
+## General notes, resources
+- [THM CyberSec Engineer path](tryhackme/cybersec_notes.md)
+
+
 ## TryHackMe
 
 Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyber Defense THM path.
@@ -22,6 +26,10 @@ Explore my notes and walkthroughs for different TryHackMe rooms, focusing on Cyb
 - [YARA](tryhackme/ir_and_forensics/yara.md)
 - [Malware analysis](tryhackme/ir_and_forensics/rev-malware.md)
 - [Splunk](tryhackme/ir_and_forensics/splunk.md)
+
+## Linux
+- [Linux](tryhackme/cyberdef/linux.md)
+
 
 ## Capture The Flag (CTF) Challenges
 
