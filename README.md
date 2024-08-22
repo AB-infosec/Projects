@@ -5,7 +5,7 @@ Here you'll find detailed write-ups and notes on various TryHackMe rooms and Cap
 Each section provides insights, tools, and techniques used during these exercises.
 
 ## General notes, resources
-- [THM CyberSec Engineer path](tryhackme/cybersec_notes.md)
+- [THM CyberSec Engineer path](tryhackme/cybsec_notes.md)
 
 
 ## TryHackMe
@@ -59,5 +59,5 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ---
 
-Last updated: 05/08/2024
+Last updated: 22/08/2024
 
