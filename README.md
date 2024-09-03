@@ -49,6 +49,9 @@ Dive into my write-ups for various CTF challenges, covering topics from network 
 - [Machine Investigation](SecOps2024/machine-investigation.md)
 - [Webserver Analysis](SecOps2024/Webserver.md)
 
+### OITM
+- [2023 CyberSec and IT Sec rooms] (OTIT/OTIT23.md)
+
 ## About
 
 This portfolio is a collection of my work in cybersecurity, demonstrating my skills in penetration testing, incident response, and digital forensics.
@@ -59,5 +62,5 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ---
 
-Last updated: 22/08/2024
+Last updated: 03/09/2024
 
