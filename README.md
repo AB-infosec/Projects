@@ -50,7 +50,7 @@ Dive into my write-ups for various CTF challenges, covering topics from network 
 - [Webserver Analysis](SecOps2024/Webserver.md)
 
 ### OITM
-- [2023 CyberSec and IT Sec rooms](OTIT/OITM23.md)
+- [2023 CyberSec and IT Sec rooms](OITM/OITM23.md)
 
 ## About
 
@@ -62,5 +62,5 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ---
 
-Last updated: 03/09/2024
+Last updated: 08/09/2024
 

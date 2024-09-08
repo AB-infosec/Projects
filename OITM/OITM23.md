@@ -147,3 +147,69 @@ HTTP traffic is always interesting, especially when:
 ```
 [Full request URI: http://34.159.33.139/get_xor_key]
 ```
+
+
+The second information needed for the challenge was about the encryption used in this scenario.
+I wasn't aware of xor key encryption, but since the question is multiple choice with xor being one of the options, it must be the solution. 
+
+The next task is connected to the previous, looking for the encryption key. 
+I simply follow the http stream to extract this information:
+```
+GET /get_xor_key HTTP/1.1
+
+Host: 34.159.33.139
+
+User-Agent: python-requests/2.31.0
+
+Accept-Encoding: gzip, deflate
+
+Accept: */*
+
+Connection: keep-alive
+
+  
+
+HTTP/1.1 200 OK
+
+Server: Werkzeug/2.3.7 Python/3.10.12
+
+Date: Thu, 31 Aug 2023 13:45:07 GMT
+
+Content-Type: text/html; charset=utf-8
+
+Content-Length: 32
+
+Connection: close
+
+  
+
+6673526b57635079736a4f537843537a
+```
+
+Out of curiosity I pasted the string into CyberChef which translated it to fsRkWcPysjOSxCSz from hex. 
+
+Following this train of thought I looked for communication from the malicious remote IP. 
+the /store_date URI was quite telling, especially knowing my next ask which was to find out what passwords were found and extracted. 
+
+The interesting frame here is:
+
+```
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "filename" = "credentials.txt"
+    Form item: "content" = "302b1c07340e6511113d1a65310b1d03021f6b030d246109110d7f182d0415000540361d340e014f3a22246236051217342b000a012460121232191e362e0247"
+        Key: content
+        Value: 302b1c07340e6511113d1a65310b1d03021f6b030d246109110d7f182d0415000540361d340e014f3a22246236051217342b000a012460121232191e362e0247
+
+```
+
+I took the value, and built a CyberChef recipe with the following elements:
+- Input the value from the above frame. 
+- Use From Hex to decode the string
+- Use XOR operation to decrypt, using the key. `#at this step I had a few issues, tried to use the converted key, but didn't realize the correct Sceheme was simply Latin1. Used the original HEX key instead, which worked.`
+- And finally convert the Base64 output, revealing:
+```
+Username: srv_admin
+Password: y54P&EtZTm$iuL6d
+```
+
+### Task 5 in the IT Security category: 
