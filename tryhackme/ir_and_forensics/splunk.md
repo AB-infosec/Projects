@@ -1,16 +1,14 @@
-#Splunk
+# Splunk
 
-###forwarder
+### forwarder
 It's the agent / hook on the end device. 
 What it collects:
 Event logs, web server traffic, DB connection request, response, error
 
-###indexer
+### indexer
 gets all the data from #forwarders 
 Normalizes data into field-value pairs, checks datatype, stores them as events. 
-markdown
 
-Settings
 ## Splunk: Essential Commands and Usage
 
 Splunk is a powerful platform for searching, monitoring, and analysing machine-generated data. We'll cover some of the most useful commands, how to search a specific index, and how to find Indicators of Compromise (IOCs).
@@ -68,8 +66,6 @@ Here’s an example that combines multiple commands to find IOCs effectively:
 This search looks for failed login attempts (EventCode 4625) in the "security" index, counts the occurrences by source IP, and filters results to show only those with more than 10 attempts.
 
 ## Rooms
-Here's an improved version of the Splunk room documentation:
-
 ---
 
 ## Splunk Room: **Benign**

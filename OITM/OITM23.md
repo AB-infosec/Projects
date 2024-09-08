@@ -183,10 +183,10 @@ Connection: close
 
   
 
-6673526b57635079736a4f537843537a
+6673526b57635[redacted]
 ```
 
-Out of curiosity I pasted the string into CyberChef which translated it to fsRkWcPysjOSxCSz from hex. 
+Out of curiosity I pasted the string into CyberChef which translated it to fsRkWcP[redacted] from hex. 
 
 Following this train of thought I looked for communication from the malicious remote IP. 
 the /store_date URI was quite telling, especially knowing my next ask which was to find out what passwords were found and extracted. 
@@ -196,9 +196,9 @@ The interesting frame here is:
 ```
 HTML Form URL Encoded: application/x-www-form-urlencoded
     Form item: "filename" = "credentials.txt"
-    Form item: "content" = "302b1c07340e6511113d1a65310b1d03021f6b030d246109110d7f182d0415000540361d340e014f3a22246236051217342b000a012460121232191e362e0247"
+    Form item: "content" = "302b1c07340e6511113d1a65310b1d03021f6b030d246109110d7f182d0415000540361d340e014f3a22[redacted]"
         Key: content
-        Value: 302b1c07340e6511113d1a65310b1d03021f6b030d246109110d7f182d0415000540361d340e014f3a22246236051217342b000a012460121232191e362e0247
+        Value: 302b1c07340e6511113d1a65310b1d03021f6b030d246109110d[redacted]
 
 ```
 
@@ -209,7 +209,7 @@ I took the value, and built a CyberChef recipe with the following elements:
 - And finally convert the Base64 output, revealing:
 ```
 Username: srv_admin
-Password: y54P&EtZTm$iuL6d
+Password: [redacted]
 ```
 
 ### Task 5 in the IT Security category: 

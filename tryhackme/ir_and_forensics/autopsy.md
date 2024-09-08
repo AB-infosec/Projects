@@ -49,8 +49,6 @@ notes from investigating a test case:
 
 The following are the room objectives:
 
-Certainly. Here's the formatted markdown Q&A section based on the full file you provided:
-
 # Windows Forensics Investigation Q&A
 
 ## Image Information

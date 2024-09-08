@@ -1,6 +1,6 @@
 ### Sysinternals Tooling Kit
 
-The Sysinternals suite is a set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment. It includes tools for file and disk management, networking, process management, security, and system information. Here's an overview of some of the most important tools in the Sysinternals kit and their common uses:
+The Sysinternals suite is a set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment. It includes tools for file and disk management, networking, process management, security, and system information.
 
 #### Process Monitor (Procmon)
 

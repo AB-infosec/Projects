@@ -45,7 +45,7 @@ rule silent_banker : banker
 - **Condition Section**: Specifies the condition under which the rule matches. In this example, the rule will match if any of the defined strings (`$a`, `$b`, or `$c`) are found.
 
 ## Searching for CTF Flags with YARA
-YARA can be particularly useful in CTF competitions to search for hidden flags. Here's a step-by-step example of how to create and use a YARA rule to find a CTF flag:
+YARA can be particularly useful in CTF competitions to search for hidden flags.
 
 1. **Create a YARA Rule**:
    Suppose we know that the CTF flag format is `FLAG{...}`. We can create a YARA rule to search for this pattern:

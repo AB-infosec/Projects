@@ -1,5 +1,3 @@
-Here's an improved version of the Linux hardening documentation:
-
 ---
 
 # Linux Hardening Documentation
